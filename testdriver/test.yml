@@ -1,0 +1,6 @@
+version: 4.1.9
+steps:
+  - prompt: check if the page is loaded
+    commands:
+      - command: assert
+        expect: The text "Welcome to ngix" is present
